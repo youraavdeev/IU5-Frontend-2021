@@ -20,6 +20,9 @@
     <pre>
         <code id="code3" class="language-js"></code>
     </pre>
+    <pre>
+        <code id="code4" class="language-js"></code>
+    </pre>
     <script>
         function uploadFile(name, id) {
             fetch(name).then(function(response) {
@@ -34,6 +37,7 @@
             uploadFile('./1.js', 'code1');
             uploadFile('./2.js', 'code2');
             uploadFile('./3.js', 'code3');
+            uploadFile('./4.js', 'code4');
         }
 
         window.onLoad = load();
